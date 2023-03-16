@@ -1,37 +1,37 @@
 # qb-phone
-Advanced Phone for QB-Core Framework :iphone:
+Разширен телефон за QB-Core Framework :iphone:
 
-# License
+# Лиценз
 
     QBCore Framework
-    Copyright (C) 2021 Joshua Eger
+    Авторско право (C) 2021 Joshua Eger
 
-    This program is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
+    Тази програма е свободен софтуер: можете да я разпространявате и/или модифицирате
+    съгласно условията на Общия публичен лиценз на GNU, публикуван от
+    Фондацията за свободен софтуер, или версия 3 на Лиценза, или
+    (по ваш избор) всяка по-късна версия.
 
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
+    Тази програма се разпространява с надеждата, че ще бъде полезна,
+    но БЕЗ КАКВАТО И ДА Е ГАРАНЦИЯ; дори без подразбиращата се гаранция за
+    ТЪРГОВСКА ДОСТОЙНОСТ или ПРИГОДНОСТ ЗА КОНКРЕТНА ЦЕЛ.  Вижте
+    GNU General Public License за повече подробности.
 
-    You should have received a copy of the GNU General Public License
-    along with this program.  If not, see <https://www.gnu.org/licenses/>
+    Трябва да сте получили копие от Общия публичен лиценз на ГНУ
+    заедно с тази програма.  Ако не, вижте <https://www.gnu.org/licenses/>
 
-## Dependencies
+## Зависимости
 - [qb-core](https://github.com/qbcore-framework/qb-core)
-- [qb-policejob](https://github.com/qbcore-framework/qb-policejob) - MEOS, handcuff check etc. 
-- [qb-crypto](https://github.com/qbcore-framework/qb-crypto) - Crypto currency trading 
-- [qb-lapraces](https://github.com/qbcore-framework/qb-lapraces) - Creating routes and racing 
-- [qb-houses](https://github.com/qbcore-framework/qb-houses) - House and Key Management App
-- [qb-garages](https://github.com/qbcore-framework/qb-garages) - For Garage App
-- [qb-banking](https://github.com/qbcore-framework/qb-banking) - For Banking App
-- [screenshot-basic](https://github.com/citizenfx/screenshot-basic) - For Taking Photos
-- A Webhook for hosting photos (Discord or Imgur can provide this)
+- [qb-policejob](https://github.com/qbcore-framework/qb-policejob) - MEOS, проверка на белезници и др. 
+- [qb-crypto](https://github.com/qbcore-framework/qb-crypto) - Търговия с криптовалути 
+- [qb-lapraces](https://github.com/qbcore-framework/qb-lapraces) - Създаване на маршрути и състезания 
+- [qb-houses](https://github.com/qbcore-framework/qb-houses) - Приложение за управление на къщи и ключове
+- [qb-garages](https://github.com/qbcore-framework/qb-garages) - Приложение за гаражи
+- [qb-banking](https://github.com/qbcore-framework/qb-banking) - За приложение за банкиране
+- [screenshot-basic](https://github.com/citizenfx/screenshot-basic) - За правене на снимки
+- Webhook за хостване на снимки (Discord или Imgur могат да осигурят това)
 
 
-## Screenshots
+## Снимки на екрана
 ![Home](https://cdn.discordapp.com/attachments/921675245360922625/921675439783673897/home.jpg)
 ![Bank](https://cdn.discordapp.com/attachments/921675245360922625/921675441142644756/bank.jpg)
 ![Advert](https://cdn.discordapp.com/attachments/921675245360922625/921675440878415872/advert.jpg)
@@ -45,24 +45,9 @@ Advanced Phone for QB-Core Framework :iphone:
 ![Gallery](https://cdn.discordapp.com/attachments/921675245360922625/921675441381736448/gallery.jpg)
 ![MEOS](https://cdn.discordapp.com/attachments/921675245360922625/921675440488341534/meos.jpg)
 ![Twitter](https://cdn.discordapp.com/attachments/921675245360922625/921675459270438922/twitter.jpg)
-![Settings](https://cdn.discordapp.com/attachments/921675245360922625/921675458905513984/setting.jpg)
-![Whatsapp](https://cdn.discordapp.com/attachments/921675245360922625/921675459517906944/whatsapp.jpg)
-![Phone](https://cdn.discordapp.com/attachments/921675245360922625/921675440677064745/phone.jpg)
+![Settings]
 
-## Features
-- Garages app to see your vehicle details
-- Mails to inform the player
-- Banking app to see balance and transfer money
-- Racing app to create races
-- App Store to download apps
-- MEOS app for polices to search
-- Houses app for house details and management
-
-## Installation
-### Manual
-- Download the script and put it in the `[qb]` directory.
-- Import `qb-phone.sql` in your database
-- Add the following code to your server.cfg/resouces.cfg
+Translated with www.DeepL.com/Translator (free version)
 ```
 ensure qb-core
 ensure screenshot-basic
