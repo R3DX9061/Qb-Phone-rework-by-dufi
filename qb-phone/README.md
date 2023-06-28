@@ -47,7 +47,7 @@
 ![Twitter](https://cdn.discordapp.com/attachments/921675245360922625/921675459270438922/twitter.jpg)
 ![Settings]
 
-Translated with www.DeepL.com/Translator (free version)
+
 ```
 ensure qb-core
 ensure screenshot-basic
